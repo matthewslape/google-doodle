@@ -29,9 +29,9 @@
   * Outline Elements
 */
 
-* {
+/* * {
   outline: 1px dotted black;
-}
+} */
 
 /* Doodle Stage */
 #stage {
@@ -41,12 +41,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-#heart1 {
-  fill: red;
-}
-
-#heart2 {
-  fill: green;
 }
