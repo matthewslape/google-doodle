@@ -1,4 +1,28 @@
 /* My Awesome Styles */
+#treeTop {
+}
+
+#smoke1 {
+}
+#smoke2 {
+}
+#smoke3 {
+}
+#smoke4 {
+}
+#smoke5 {
+}
+#smoke6 {
+}
+
+.hide {
+  opacity: 1;
+  transition: 3s;
+}
+
+.hide:hover {
+  opacity: 0;
+}
 
 /* Diagnostic Styling 
   * Change Background Color
@@ -6,14 +30,17 @@
 */
 
 * {
-    outline: 1px dotted black;
+  outline: 1px dotted black;
 }
 
 /* Doodle Stage */
 #stage {
   background: #ccc;
-  height: 300px;
-  width: 600px;
+  width: 900px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #heart1 {
