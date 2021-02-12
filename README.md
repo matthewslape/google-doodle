@@ -1,6 +1,6 @@
 # Camping Google Doodle
 
-50+ words about your Google Doodle.
+Camping has always held a special place in my life. Growing up, some of my favorite moments where with my family going on a camping trip to get away from the craziness of life and spend some quality time together. I decided to create this Google Doodle to represent the quality and simplicity of camping, and how it can help us connect with the world and slow down. It gives us a chance as humans to put away our devices, get away from busyness, and ground ourselves. It is inspiring to know that an act of simple adventure can be so rewarding to our minds and bodies.
 
 ## Collage
 
