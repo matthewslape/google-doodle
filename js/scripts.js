@@ -3,8 +3,19 @@ console.log("OK");
 // Greensock Coming Soon!
 // TIMELINE
 
+//Day and Night Toggle
+const changeDisplay = document.querySelector("#triggergrid");
+
+const thingToChange = document.querySelector("#day");
+
+changeDisplay.addEventListener("click", () => {
+  console.log("hi");
+
+  thingToChange.classList.toggle("day");
+});
+
 /*Growth of tree*/
-gsap.to("#treeTop", { x: 0, y: -50, repeat: -1, duration: 10, yoyo: true });
+gsap.to("#treeTop", { x: 0, y: -50, repeat: -1, duration: 25, yoyo: true });
 
 /*Radomization of Smoke on fire*/
 gsap.fromTo(

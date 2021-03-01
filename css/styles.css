@@ -1,3 +1,5 @@
+/*Performant keyframe animations*/
+
 /* My Awesome Styles */
 #treeTop {
 }
@@ -15,15 +17,6 @@
 #smoke6 {
 }
 
-.hide {
-  opacity: 1;
-  transition: 3s;
-}
-
-.hide:hover {
-  opacity: 0;
-}
-
 /* Diagnostic Styling 
   * Change Background Color
   * Outline Elements
@@ -35,10 +28,35 @@
 
 /* Doodle Stage */
 #stage {
-  background: #ccc;
-  width: 900px;
-  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+#stageImage {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+/*toggle for day and night*/
+.day {
+  opacity: 0;
+  transition: 6s;
+}
+
+#day {
+  position: absolute;
+}
+
+/*button*/
+#triggergrid {
+  background: black;
+  border-radius: 5px;
+  margin: 10px;
+  width: 700px;
+  height: 50px;
+  transition: 400ms;
+}
+
+#triggergrid:hover {
+  background: darkslategrey;
 }
