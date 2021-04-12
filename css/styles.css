@@ -30,6 +30,7 @@
 #stage {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 #stageImage {
@@ -49,14 +50,24 @@
 
 /*button*/
 #triggergrid {
-  background: black;
-  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 28px;
   margin: 10px;
-  width: 700px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   transition: 400ms;
+  position: absolute;
+  transform: translate(20%, 20%);
 }
 
 #triggergrid:hover {
-  background: darkslategrey;
+  background: rgb(3, 23, 49);
+}
+
+}
+#moon:hover {
+  fill: white;
 }

@@ -15,7 +15,7 @@ changeDisplay.addEventListener("click", () => {
 });
 
 /*Growth of tree*/
-gsap.to("#treeTop", { x: 0, y: -50, repeat: -1, duration: 25, yoyo: true });
+gsap.to("#treeTop", { x: 0, y: -50, repeat: -1, duration: 15, yoyo: true });
 
 /*Radomization of Smoke on fire*/
 gsap.fromTo(
@@ -25,7 +25,7 @@ gsap.fromTo(
     x: 0,
     y: 0,
     repeat: -1,
-    duration: "random(1, 7)",
+    duration: "random(1, 5)",
     opacity: "random(0, 1)",
     yoyo: true
   },
@@ -33,7 +33,7 @@ gsap.fromTo(
     x: 0,
     y: 0,
     repeat: -1,
-    duration: "random(1, 7)",
+    duration: "random(1, 4)",
     opacity: "random(0, 1)",
     yoyo: true
   }
@@ -46,7 +46,7 @@ gsap.fromTo(
     x: 0,
     y: 0,
     repeat: -1,
-    duration: "random(1, 7)",
+    duration: "random(1, 5)",
     opacity: "random(0, 1)",
     yoyo: true
   },
@@ -54,7 +54,7 @@ gsap.fromTo(
     x: 0,
     y: 0,
     repeat: -1,
-    duration: "random(1, 7)",
+    duration: "random(1, 5)",
     opacity: "random(0, 1)",
     yoyo: true
   }
@@ -67,7 +67,7 @@ gsap.fromTo(
     x: 0,
     y: 0,
     repeat: -1,
-    duration: "random(1, 7)",
+    duration: "random(1, 5)",
     opacity: "random(0, 1)",
     yoyo: true
   },
@@ -75,7 +75,7 @@ gsap.fromTo(
     x: 0,
     y: 0,
     repeat: -1,
-    duration: "random(1, 7)",
+    duration: "random(1, 5)",
     opacity: "random(0, 1)",
     yoyo: true
   }
@@ -88,7 +88,7 @@ gsap.fromTo(
     x: 0,
     y: 0,
     repeat: -1,
-    duration: "random(1, 7)",
+    duration: "random(1, 5)",
     opacity: "random(0, 1)",
     yoyo: true
   },
@@ -96,7 +96,7 @@ gsap.fromTo(
     x: 0,
     y: 0,
     repeat: -1,
-    duration: "random(1, 7)",
+    duration: "random(1, 5)",
     opacity: "random(0, 1)",
     yoyo: true
   }
@@ -109,7 +109,7 @@ gsap.fromTo(
     x: 0,
     y: 0,
     repeat: -1,
-    duration: "random(1, 7)",
+    duration: "random(1, 5)",
     opacity: "random(0, 1)",
     yoyo: true
   },
@@ -117,7 +117,7 @@ gsap.fromTo(
     x: 0,
     y: 0,
     repeat: -1,
-    duration: "random(1, 7)",
+    duration: "random(1, 5)",
     opacity: "random(0, 1)",
     yoyo: true
   }
@@ -130,7 +130,7 @@ gsap.fromTo(
     x: 0,
     y: 0,
     repeat: -1,
-    duration: "random(1, 7)",
+    duration: "random(1, 5)",
     opacity: "random(0, 1)",
     yoyo: true
   },
@@ -138,7 +138,7 @@ gsap.fromTo(
     x: 0,
     y: 0,
     repeat: -1,
-    duration: "random(1, 7)",
+    duration: "random(1, 5)",
     opacity: "random(0, 1)",
     yoyo: true
   }
